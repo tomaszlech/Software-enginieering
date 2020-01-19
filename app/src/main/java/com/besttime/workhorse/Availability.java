@@ -12,18 +12,34 @@ private ContactEntry contact;
 private Map<Hours,AvailType> currentDay = new HashMap<Hours, AvailType>();
 private List<Map<Hours,AvailType>> availability = new ArrayList<Map<Hours,AvailType>>();
 
-    public void setCurrentDay(Map<Hours, AvailType> currentDay) {
+
+    public Map<Hours, AvailType> getCurrentDay() {
+        return currentDay;
+    }
+
+    public void setAvailability(List<Map<Hours, AvailType>> availability) {
+        this.availability = availability;
+    }
+
+    private void setCurrentDay(Map<Hours, AvailType> currentDay) {
         this.currentDay = currentDay;
     }
 
-public Availability(ContactEntry contact){
-    this.contact = contact;
-}
+    public Availability(ContactEntry contact){
+        this.contact = contact;
+    }
 
 
     public void swapCurrentDay(CurrentTime currentTime){
     int dayAsDec = currentTime.getDayOfWeekAsDecimal();
-    setCurrentDay(availability.get(dayAsDec));
+    try {
+        setCurrentDay(availability.get(dayAsDec));
+    }
+    catch (NullPointerException e){
+        System.out.println(e);
+    }
+
+
 
     }
 }
