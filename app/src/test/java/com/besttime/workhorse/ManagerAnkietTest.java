@@ -47,10 +47,19 @@ public void puttingIntoMaps(){
         managerAnkietTest.addToList(map6);
 
         System.out.println(managerAnkietTest.wyslaneAnkiety);
+        managerAnkietTest.wyslaneAnkiety.clear();
     }
 
     @Test
     public void znajdzPoIdAnkiety() {
+        puttingIntoMaps();
+        managerAnkietTest.addToList(map1);
+        managerAnkietTest.addToList(map2);
+        managerAnkietTest.addToList(map3);
+        managerAnkietTest.addToList(map4);
+        managerAnkietTest.addToList(map5);
+        managerAnkietTest.addToList(map6);
 
+        System.out.println(managerAnkietTest.znajdzPoIdAnkiety((long)2));
     }
 }
