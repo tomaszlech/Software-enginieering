@@ -1,5 +1,5 @@
 package com.besttime.workhorse;
-
+import com.besttime.app.ContactEntry;
 
 import java.util.Date;
 
