@@ -63,7 +63,7 @@ private List<Map<Hours,AvailType>> availability;
         return oneDayMap;
     }
 
-    public void setUndefindAvailability(){
+    private void setUndefindAvailability(){
         List<Map<Hours,AvailType>> tmp = new ArrayList<>(7);
         this.availability.clear();
         for(int i =0; i<7; i++){
