@@ -1,5 +1,6 @@
 package com.besttime.json;
 
+import com.besttime.models.Contact;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -9,6 +10,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
 import java.io.IOException;
+
 
 public class Json<T> {
 
@@ -38,7 +40,7 @@ public class Json<T> {
     }
 
 
-    public T deserialize(String jsonPath) {
+    public T deserialize(String jsonFilename) {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.NONE);
         objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
@@ -46,11 +48,23 @@ public class Json<T> {
         T object = null;
         try {
             object = objectMapper.reader().forType(new TypeReference<T>() {
-            }).readValue(new File(this.getPath() + "/" + jsonPath + ".json"));
+            }).readValue(new File(this.getPath() + "/" + jsonFilename + ".json"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         return object;
+    }
+
+
+    public Contact deserializeContact(String jsonFilename){
+        ObjectMapper mapper = new ObjectMapper();
+        Contact songs = null;
+        try {
+            songs = mapper.reader().forType(new TypeReference<Contact>(){}).readValue(new File(this.getPath() + "/" + jsonFilename + ".json"));
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        return songs;
     }
 
 }

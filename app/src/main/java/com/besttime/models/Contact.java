@@ -1,5 +1,7 @@
 package com.besttime.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Contact {
 
     private int mId;
@@ -7,7 +9,7 @@ public class Contact {
     private String mPhoneNumber;
 
 
-    public Contact(int id, String name, String phoneNumber) {
+    public Contact(@JsonProperty("mId") int id, @JsonProperty("mName")String name, @JsonProperty("mPhoneNumber")String phoneNumber) {
         this.mId = id;
         this.mName = name;
         this.mPhoneNumber = phoneNumber;

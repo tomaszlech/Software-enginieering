@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3dfd96-ea01-4230-8497-69a0ac492494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +28,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="182">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -42,10 +52,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="55">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" />
       </list>
     </option>
@@ -136,7 +157,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="besttime" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BestTime" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.JsonTest.getPathTest">
+  <component name="RunManager" selected="Android JUnit.JsonTest.serializeTest_and_deserializeTest">
     <configuration name="JsonTest.getPathTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -305,8 +326,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.JsonTest.getPathTest" />
         <item itemvalue="Android JUnit.JsonTest.serializeTest_and_deserializeTest" />
+        <item itemvalue="Android JUnit.JsonTest.getPathTest" />
         <item itemvalue="Android JUnit.JsonTest.serializeTest" />
       </list>
     </recent_temporary>
@@ -325,35 +346,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonTest_getPathTest - 2020.01.24 at 16h 20m 03s.xml">
-      <configuration name="JsonTest.getPathTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_getPathTest - 2020.01.24 at 16h 20m 38s.xml">
-      <configuration name="JsonTest.getPathTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serializeTest - 2020.01.24 at 16h 22m 48s.xml">
-      <configuration name="JsonTest.serializeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.24 at 16h 23m 57s.xml">
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 24m 48s.xml">
       <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.24 at 16h 25m 38s.xml">
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 31m 08s.xml">
       <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.24 at 16h 27m 23s.xml">
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 39m 39s.xml">
       <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.24 at 16h 27m 48s.xml">
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 42m 43s.xml">
       <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.24 at 16h 28m 33s.xml">
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 00m 22s.xml">
       <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_getPathTest - 2020.01.24 at 16h 29m 05s.xml">
-      <configuration name="JsonTest.getPathTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 01m 53s.xml">
+      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_getPathTest - 2020.01.24 at 16h 29m 18s.xml">
-      <configuration name="JsonTest.getPathTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 04m 10s.xml">
+      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 07m 12s.xml">
+      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 07m 14s.xml">
+      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 17m 12s.xml">
+      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -369,10 +390,10 @@
       <window_info id="Resources Explorer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" sideWeight="0.49959904" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" sideWeight="0.49959904" weight="0.32899022" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Debug" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Debug" visible="true" weight="0.35016286" />
       <window_info anchor="bottom" id="Build" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
@@ -384,25 +405,121 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info id="Captures" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32397756" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49959904" weight="0.32899022" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32899022" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040096" side_tool="true" weight="0.32899022" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.2/f65a9cc329f6a29eff8812536153a89a7562dbc/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/DeserializationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1054" column="19" selection-start-line="1054" selection-start-column="19" selection-end-line="1054" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.2/f65a9cc329f6a29eff8812536153a89a7562dbc/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/exc/InvalidDefinitionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.2/f65a9cc329f6a29eff8812536153a89a7562dbc/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="591" selection-start-line="591" selection-end-line="591" />
+          <folding>
+            <element signature="e#22192#22193#0" expanded="true" />
+            <element signature="e#22230#22231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.2/387baaa5f80e83cd14b49fdb8f7aeb6989d6f35a/jackson-core-2.10.2-sources.jar!/com/fasterxml/jackson/core/ObjectCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="55">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="182">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

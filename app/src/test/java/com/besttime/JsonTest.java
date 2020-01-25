@@ -1,5 +1,7 @@
 package com.besttime;
 
+import android.os.CpuUsageInfo;
+
 import com.besttime.json.Json;
 import com.besttime.models.Contact;
 
@@ -7,10 +9,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.io.IOException;
 
-import static org.junit.Assert.*;
+
 
 public class JsonTest {
     private static Contact contactTest;
@@ -26,6 +29,8 @@ public class JsonTest {
 
     }
 
+
+
     @Test
     public void getPathTest(){
         Assert.assertEquals(path, jsonTest.getPath());
@@ -35,6 +40,10 @@ public class JsonTest {
     @Test
     public void serializeTest_and_deserializeTest() throws IOException {
         jsonTest.serialize("kontakt",contactTest);
-        Assert.assertEquals(contactTest,jsonTest.deserialize("kontakt"));
+        Contact k1;
+        k1 = (Contact)jsonTest.deserialize("kontakt");
+        //System.out.println(jsonTest.deserializeContact("kontakt"));
+        //assertTrue(contactTest.equals(k1));
+
     }
 }
