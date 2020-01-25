@@ -2,8 +2,10 @@ package com.besttime;
 
 import android.os.CpuUsageInfo;
 
+import com.besttime.app.ContactEntry;
 import com.besttime.json.Json;
 import com.besttime.models.Contact;
+import com.besttime.workhorse.Availability;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,6 +21,8 @@ public class JsonTest {
     private static Contact contactTest;
     private static Json jsonTest;
     private static String path;
+    private static ContactEntry contactEntryTest;
+    private static Availability availabilityTest;
 
     @BeforeClass
     public static void setup(){
@@ -38,12 +42,25 @@ public class JsonTest {
     }
 
     @Test
-    public void serializeTest_and_deserializeTest() throws IOException {
+    public void serialize_and_deserialize_Contact() throws IOException {
         jsonTest.serialize("kontakt",contactTest);
         Contact k1;
         k1 = (Contact)jsonTest.deserialize("kontakt");
         //System.out.println(jsonTest.deserializeContact("kontakt"));
         //assertTrue(contactTest.equals(k1));
+
+    }
+
+
+    @Before
+    public void setContactEntryAndAvailability(){
+        contactEntryTest = new ContactEntry(contactTest);
+        availabilityTest = new Availability(contactEntryTest);
+    }
+
+    @Test
+    public void serialize_and_deserialize_ContactEntry() throws IOException {
+        jsonTest.serialize("contactEntyTest", contactEntryTest);
 
     }
 }
