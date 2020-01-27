@@ -1,8 +1,9 @@
 package com.besttime.workhorse;
 
+import java.io.Serializable;
 import java.util.*;
 
-public class QuerySmsComputation {
+public class QuerySmsComputation implements Serializable {
     private Week smsWeek;
     private Week queryWeek;
     private List<Hours> hoursList;

@@ -1,5 +1,6 @@
 package com.besttime.workhorse;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import java.util.HashMap;
@@ -12,7 +13,7 @@ import com.besttime.app.ContactEntry;
 import static com.besttime.workhorse.AvailType.*;
 import static com.besttime.workhorse.Hours.*;
 
-public class Availability {
+public class Availability implements Serializable {
 
 private ContactEntry contact;
 private Map<Hours,AvailType> currentDay;

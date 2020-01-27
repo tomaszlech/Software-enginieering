@@ -1,10 +1,11 @@
 package com.besttime.workhorse;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class Week {
+public class Week implements Serializable {
 
 
     private HashMap <Hours, Integer> monday;

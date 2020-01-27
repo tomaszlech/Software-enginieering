@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3dfd96-ea01-4230-8497-69a0ac492494" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/ManagerAnkiet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,8 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -22,12 +38,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="61">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,58 +52,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/AvailabilityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="195">
+              <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,9 +83,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" />
       </list>
     </option>
   </component>
@@ -178,26 +171,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="besttime" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BestTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-enginieeringWirus" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="besttime" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BestTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-enginieeringWirus" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="besttime" type="462c0819:PsiDirectoryNode" />
               <item name="workhorse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,24 +196,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="besttime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BestTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-enginieeringWirus" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="besttime" type="462c0819:PsiDirectoryNode" />
-              <item name="workhorse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,6 +272,23 @@
       <option name="PACKAGE_NAME" value="com.besttime" />
       <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
       <option name="METHOD_NAME" value="serializeTest_and_deserializeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.serialize_and_deserialize_Contact" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.besttime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.besttime" />
+      <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
+      <option name="METHOD_NAME" value="serialize_and_deserialize_Contact" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -395,8 +375,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Android JUnit.JsonTest.serialize_and_deserialize_ContactEntry" />
-        <item itemvalue="Android JUnit.JsonTest.serializeTest_and_deserializeTest" />
+        <item itemvalue="Android JUnit.JsonTest.serialize_and_deserialize_Contact" />
         <item itemvalue="Android JUnit.JsonTest.getPathTest" />
+        <item itemvalue="Android JUnit.JsonTest.serializeTest_and_deserializeTest" />
         <item itemvalue="Android JUnit.JsonTest.serializeTest" />
       </list>
     </recent_temporary>
@@ -415,34 +396,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 39m 39s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 12m 21s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 03h 42m 43s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 12m 40s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 00m 22s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 18m 39s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 01m 53s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 18m 47s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 04m 10s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
+    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 20m 22s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 07m 12s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 07m 14s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serializeTest_and_deserializeTest - 2020.01.25 at 04h 17m 12s.xml">
-      <configuration name="JsonTest.serializeTest_and_deserializeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.25 at 04h 29m 09s.xml">
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 21m 46s.xml">
       <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.25 at 04h 33m 25s.xml">
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 44m 15s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 45m 53s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 46m 18s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 48m 28s.xml">
       <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -450,29 +431,29 @@
     <frame x="67" y="25" width="1293" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Build Variants" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32397756" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3287891" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Resources Explorer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" sideWeight="0.49959904" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Debug" weight="0.35016286" />
-      <window_info anchor="bottom" id="Build" weight="0.32899022" />
+      <window_info id="Build Variants" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50040096" side_tool="true" weight="0.32899022" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.35016286" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49959904" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32899022" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="4" />
     </layout>
     <layout-to-restore>
       <window_info id="Build Variants" order="0" side_tool="true" />
@@ -512,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -562,19 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -582,24 +543,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/AvailabilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,10 +573,125 @@
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/AvailType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/ManagerAnkiet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

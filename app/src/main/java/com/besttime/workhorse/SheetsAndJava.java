@@ -15,11 +15,12 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.security.GeneralSecurityException;
 import java.util.Arrays;
 import java.util.List;
 
-public class SheetsAndJava {
+public class SheetsAndJava implements Serializable {
     private Sheets sheetsService;
     private final String APPLICATION_NAME = "Availability Sheet";
     private final String SPREADSHEET_ID = "1vFmyVumydY92lfRME4bpROJ_7WrwH6yrGXBb8FZpJCc";

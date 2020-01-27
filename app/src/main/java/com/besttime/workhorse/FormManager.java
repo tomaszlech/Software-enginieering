@@ -1,11 +1,12 @@
 package com.besttime.workhorse;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
 
-public class FormManager {
+public class FormManager implements Serializable {
 
     private Map<Long,Date> sentForms;
 

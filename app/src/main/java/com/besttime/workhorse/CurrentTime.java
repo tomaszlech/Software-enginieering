@@ -1,9 +1,10 @@
 package com.besttime.workhorse;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
-public class CurrentTime {
+public class CurrentTime implements Serializable {
     private Date time;
 
     public CurrentTime() {

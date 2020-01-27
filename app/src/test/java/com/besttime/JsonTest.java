@@ -44,10 +44,10 @@ public class JsonTest {
     @Test
     public void serialize_and_deserialize_Contact() throws IOException {
         jsonTest.serialize("kontakt",contactTest);
+
         Contact k1;
         k1 = (Contact)jsonTest.deserialize("kontakt");
-        //System.out.println(jsonTest.deserializeContact("kontakt"));
-        //assertTrue(contactTest.equals(k1));
+        assertSame(k1.getId(),contactTest.getId());
 
     }
 
@@ -60,7 +60,12 @@ public class JsonTest {
 
     @Test
     public void serialize_and_deserialize_ContactEntry() throws IOException {
-        jsonTest.serialize("contactEntyTest", contactEntryTest);
-
+        jsonTest.serialize("contactEntryTest", contactEntryTest);
+        ContactEntry k = (ContactEntry)jsonTest.deserialize("contactEntryTest");
+        assertEquals(contactEntryTest.getAvailability().getCurrentDay(),k.getAvailability().getCurrentDay());
     }
+
+    @Before
+    public
+    @Test
 }

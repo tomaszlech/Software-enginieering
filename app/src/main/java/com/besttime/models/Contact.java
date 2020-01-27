@@ -2,7 +2,9 @@ package com.besttime.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Contact {
+import java.io.Serializable;
+
+public class Contact implements Serializable {
 
     private int mId;
     private String mName;

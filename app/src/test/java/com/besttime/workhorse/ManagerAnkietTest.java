@@ -3,13 +3,9 @@ package com.besttime.workhorse;
 import org.junit.Test;
 
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import com.besttime.workhorse.ManagerAnkiet;
-
-import static org.junit.Assert.*;
 
 public class ManagerAnkietTest {
+    /*
 ManagerAnkiet managerAnkietTest = new ManagerAnkiet();
 
 
@@ -51,4 +47,6 @@ Date data7 = new CurrentTime().getTime();
 
         System.out.println(managerAnkietTest.znajdzPoIdAnkiety((long)2));
     }
+
+     */
 }

@@ -1,7 +1,8 @@
 package com.besttime.workhorse;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Query {
+public class Query implements Serializable {
 
     private Boolean answer;
     private String question;
