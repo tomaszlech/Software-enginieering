@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3dfd96-ea01-4230-8497-69a0ac492494" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/models/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/CurrentTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/DayOfTheWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/FormManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/ManagerAnkiet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/QuerySmsComputation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/SheetsAndJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Week.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="900">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,14 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -121,6 +99,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,9 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.JsonTest.serialize_and_deserialize_ContactEntry">
+  <component name="RunManager" selected="Android JUnit.JsonTest.serialize_and_deserialize_FormManager">
     <configuration name="JsonTest.getPathTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -238,23 +216,6 @@
       <option name="PACKAGE_NAME" value="com.besttime" />
       <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
       <option name="METHOD_NAME" value="getPathTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonTest.serializeTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.besttime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.besttime" />
-      <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
-      <option name="METHOD_NAME" value="serializeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -306,6 +267,23 @@
       <option name="PACKAGE_NAME" value="com.besttime" />
       <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
       <option name="METHOD_NAME" value="serialize_and_deserialize_ContactEntry" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.serialize_and_deserialize_FormManager" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.besttime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.besttime" />
+      <option name="MAIN_CLASS_NAME" value="com.besttime.JsonTest" />
+      <option name="METHOD_NAME" value="serialize_and_deserialize_FormManager" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -374,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.JsonTest.serialize_and_deserialize_FormManager" />
+        <item itemvalue="Android JUnit.JsonTest.getPathTest" />
         <item itemvalue="Android JUnit.JsonTest.serialize_and_deserialize_ContactEntry" />
         <item itemvalue="Android JUnit.JsonTest.serialize_and_deserialize_Contact" />
-        <item itemvalue="Android JUnit.JsonTest.getPathTest" />
         <item itemvalue="Android JUnit.JsonTest.serializeTest_and_deserializeTest" />
-        <item itemvalue="Android JUnit.JsonTest.serializeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -396,35 +374,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 12m 21s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 12m 40s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 18m 39s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 18m 47s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_Contact - 2020.01.27 at 08h 20m 22s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_Contact" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 21m 46s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 44m 15s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 45m 53s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 46m 18s.xml">
-      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 08h 48m 28s.xml">
       <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 02m 25s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 02m 43s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 08m 14s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 08m 38s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 08m 46s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_ContactEntry - 2020.01.27 at 09h 09m 05s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_ContactEntry" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_getPathTest - 2020.01.27 at 09h 09m 41s.xml">
+      <configuration name="JsonTest.getPathTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_FormManager - 2020.01.27 at 09h 35m 38s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_FormManager" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_serialize_and_deserialize_FormManager - 2020.01.27 at 09h 36m 01s.xml">
+      <configuration name="JsonTest.serialize_and_deserialize_FormManager" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -448,7 +426,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.35016286" />
       <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49959904" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.12214984" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -550,9 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.json" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/app/ContactEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -570,9 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.json" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Availability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -587,13 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/ManagerAnkiet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/ManagerAnkiet.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/workhorse/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -662,6 +630,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/kontakt.ser">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.ser" />
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/workhorse/ManagerAnkietTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -669,13 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/contactEntyTest.ser">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/besttime/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="900">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -684,14 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/besttime/json/Json.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

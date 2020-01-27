@@ -28,7 +28,8 @@ public class Json {
             FileInputStream strumienPlk = new FileInputStream(this.path + "/" + filename+".ser");
             ObjectInputStream os = new ObjectInputStream(strumienPlk);
             Object obj = os.readObject();
-            os.close();
+            os.close();         //TUTAJ MOGA BYC BLEDY ODNOSNIE KTORY STRUMIEN PIERWSZY ZAMKNAC
+            strumienPlk.close();
             return obj;
         } catch (Exception e) {
             e.printStackTrace();
@@ -39,19 +40,5 @@ public class Json {
     public String getPath(){
         return path;
     }
-/*
-    public static void main(String args[]){
 
-        Contact contact = new Contact(1,"Pawel", "535231060");
-        ContactEntry contactEntry = new ContactEntry(contact);
-
-        Json json = new Json();
-        json.serialize("asd", contactEntry);
-        ContactEntry con = (ContactEntry) json.deserialize("asd");
-        System.out.println(con.getAvailability().getCurrentDay());
-
-
-
-    }
-*/
 }
